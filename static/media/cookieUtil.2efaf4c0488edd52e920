@@ -1,0 +1,31 @@
+import { Cookies } from 'react-cookie';
+
+const cookies = new Cookies();
+
+// path	string, 쿠키를 접근할 수 있는 경로 지정
+// expires	Date, 쿠키 만료 날짜 지정
+// maxAge	number, 초 단위로 쿠키의 상대적인 max age 지정
+// secure	boolean, HTTPS로만 접근 가능하게 할 것인지 지정
+export const setCookie = (name, value) => {
+  cookies.set(name, value, { path: '/' });
+
+  // setCookie('themeMode', updatedSettings.mode, {
+  //   path: '/',
+  // secure: '/',
+  // expires: new Date().getMinutes() + 1,
+/* 
+	setCookie('cookieKey', 'cookieValue', {
+      path: '/',
+      secure: true,
+      maxAge: 3000
+    })
+*/  
+};
+
+export const getCookie = (name) => {
+  return cookies.get(name);
+};
+
+export const removeCookie = (name) => {
+  return cookies.remove(name);
+};

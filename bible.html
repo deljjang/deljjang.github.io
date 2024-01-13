@@ -1,0 +1,193 @@
+
+<html>
+<!--
+CDN에서 필요한 개별 구성요소를 포함합니다. firebase-app을 맨 처음에 포함해야 합니다. 
+-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Siny Memo">
+<meta name="author" content="gsp ict">
+
+<title>Siny Bible</title>
+
+<!-- Firebase App is always required and must be first -->
+<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-app.js"></script>
+
+<!-- Add additional services that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-messaging.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-functions.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.3/firebase-storage.js"></script>
+
+<script src="/js/fire-config.js"></script>
+<script src="/js/fire-img.js"></script>
+<script src="/js/common.js"></script>
+
+<script src="/js/bible.google.auth.js"></script>
+<script src="/js/bookmark.js"></script>
+<script src="/js/bible.js"></script>
+<script src="/js/memo.move.js"></script>
+<script src="/js/memo.search.js"></script>
+<script src="/js/bible.siny.tree.js"></script>
+
+<script type='text/javascript' src='/ckeditor/ckeditor.js'></script>
+
+<script type="text/javascript" src="/vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/vendor/bootstrap/js/bootstrap-treeview.js"></script>
+
+<!-- Bootstrap core CSS -->
+<link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom fonts for this template -->
+<link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link href="/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+<!-- Custom styles for this template -->
+<link href="/css/landing-page.min.css" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="/css/jquery_style.css">
+<link rel="stylesheet" type="text/css" href="/css/memo.css">
+</head>
+
+<body class="bg-white">
+<header class="main-header" >
+    <section id="secTree">
+       	<input id="edSearch" type="text" onkeypress="edSearchKeyPress(event);" class="form-control form-control-md" placeholder="Enter Search...">
+       	<div class="form-row" >
+	       	<div class="col-5" style='padding-left:0px; padding-right:3px;'>
+	       		<button type="button" onclick='newMemoBtn();return false;' class="btn btn-outline-danger btn-block">New Memo</button>
+	       	</div>
+	       	<div class="col-7" style='padding-left:0px; padding-right:0px;'>
+	       		<button type="button" onclick='searchDataBtn();return false;' class="btn btn-outline-success btn-block">Search</button>
+	       	</div>
+       	</div>
+		<div id="treeview1" class="tree"></div>
+	</section>
+</header>
+
+<nav id="navTitle" class="navbar navbar-light static-top bg-white pad-290">
+	<a href="#" class="sidebar-toggle" onclick='btnWordListDiv();' data-toggle="offcanvas" role="button">
+		<span class="navbar-toggler-icon"></span>
+	</a>        
+	<a class="navbar-brand" href="/" style="text-align: center;">  Siny Bible</a>
+    <a id="signIn" class="btn form-control-md" href="javascript:logout();">
+    Sign In
+    </a>
+</nav>
+ 
+<header id='headDiv' class="text-white pad-290">
+	<div align='left'>
+	<div class="form-row top-btn" id='btnBodyDiv'></div>
+	</div>
+</header>
+
+ <!-- Testimonials -->
+<section id="secBody" class="text-center pad-290">
+	<div class="form-row" style='margin-left: 0px; margin-right: 0px;'>
+		<div class='col-sm-12 bg-white' align='left'>
+			<div class="form-row" id='treeBodyDiv' style='display: inline-block; margin-left:5px; margin-right:5px;'></div>
+			<hr>
+			<div class="form-row" id='bookmarkDiv' style='margin-left:5px; margin-right:5px;'></div>
+		</div>
+	</div>
+</section>
+
+<form enctype="multipart/form-data" action="fileupload" method="POST" id="upload_form" style="display:none;">
+	<input type="file" id="upload_file" multiple="multiple"  onChange="fileUpload();"/>
+</form>
+</body>
+
+<script>
+var jsonIndex = "";
+var json;
+var jsonGbn; //구분
+var memoJson;
+
+//이미지 파일 업로드 처리
+var imgIndex = "";
+var onFileOpen = function(index){
+	imgIndex = index;
+	$("#upload_file").click();
+	return false;
+}
+
+var fileUpload = function(){
+	onFileUpLoad(document.getElementById("upload_file"), imgIndex, "imgDiv");
+}
+  	
+//검색단어 닫기
+//트리 열고 닫기로 수정
+function btnWordListDiv() {
+	if($("#secTree").css("display") == "none") {
+		$("#secTree").show();
+		//$("#btn_close_pop").attr('src',"/img/arrow_up_float.png");
+
+		$("#navTitle").addClass('pad-290');
+		$("#headDiv").addClass('pad-290');
+		
+		$("#secBody").addClass('pad-290');
+		$("#divFooter").addClass('pad-290');
+		
+
+		//saveEnv("wordWindow","Y");
+	} else {
+		$("#secTree").hide();
+		
+		$("#navTitle").removeClass('pad-290');
+		$("#headDiv").removeClass('pad-290');
+		
+		$("#secBody").removeClass('pad-290');
+		$("#divFooter").removeClass('pad-290');
+		
+		//$("#btn_close_pop").attr('src',"/img/arrow_down_float.png");
+		//saveEnv("wordWindow","N");
+	}
+}
+
+function edCategoryKeyPress(e) {
+	if(e.which == 13) {
+		edSearch.focus();
+    }
+}
+
+function edSearchKeyPress(e) {
+	if(e.which == 13) {
+		searchDataBtn();
+    }
+}
+
+$.ajax({
+    type: "get",
+    url: "/footer.html",
+    data: {},
+    async: false,//비동기
+    dataType: "text",
+    contentType: "application/x-www-form-urlencoded;charset=UTF-8" ,
+    success: function(data){
+		$("body").append(data);
+	},
+    error: function(xhr,status,error){
+   }
+});
+
+$(document).ready( function() {
+    var jbOffset = $( '#headDiv' ).offset();
+    $( window ).scroll( function() {
+		if ( $( document ).scrollTop() > jbOffset.top ) {
+			$('#btnBodyDiv' ).addClass('fixed'); //headDiv
+		} else {
+			$('#btnBodyDiv' ).removeClass('fixed');
+		}
+    });
+    
+	bibleDataLoad();
+	//getBookmark("bookmarkDiv");
+    
+});
+  
+</script>
+</html>
