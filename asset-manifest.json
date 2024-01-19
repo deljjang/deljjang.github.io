@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.ff0c1e4e.css",
-    "main.js": "/static/js/main.befb6b7a.js",
+    "main.js": "/static/js/main.341a73ac.js",
     "static/css/655.79e06959.chunk.css": "/static/css/655.79e06959.chunk.css",
     "static/js/655.75c110d0.chunk.js": "/static/js/655.75c110d0.chunk.js",
     "static/css/683.79e06959.chunk.css": "/static/css/683.79e06959.chunk.css",
     "static/js/683.592fcc80.chunk.js": "/static/js/683.592fcc80.chunk.js",
-    "static/js/994.867ecd8b.chunk.js": "/static/js/994.867ecd8b.chunk.js",
+    "static/js/994.dfeb26f4.chunk.js": "/static/js/994.dfeb26f4.chunk.js",
     "static/js/889.4c99f517.chunk.js": "/static/js/889.4c99f517.chunk.js",
     "static/js/668.aa5d99aa.chunk.js": "/static/js/668.aa5d99aa.chunk.js",
     "static/js/32.b5397615.chunk.js": "/static/js/32.b5397615.chunk.js",
-    "static/js/95.f080fcea.chunk.js": "/static/js/95.f080fcea.chunk.js",
+    "static/js/868.04f3e471.chunk.js": "/static/js/868.04f3e471.chunk.js",
     "static/js/878.d6eead80.chunk.js": "/static/js/878.d6eead80.chunk.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.6def8797.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.f1e69044.chunk.js",
@@ -40,13 +40,12 @@
     "static/js/459.29dcf9aa.chunk.js": "/static/js/459.29dcf9aa.chunk.js",
     "static/js/450.a3ac705e.chunk.js": "/static/js/450.a3ac705e.chunk.js",
     "static/media/main_top3.jpg": "/static/media/main_top3.135be8c5f63030153a79.jpg",
-    "static/media/react_image.jpeg": "/static/media/react_image.da7902284af096a15ec4.jpeg",
-    "static/media/android_image.jpg": "/static/media/android_image.70f3686560318ee549a6.jpg",
+    "static/media/java_image.png": "/static/media/java_image.73beed207ce12c7d1373.png",
     "static/media/icons8-chatgpt-48.svg": "/static/media/icons8-chatgpt-48.26d0be6e8a777a0d954856ca0967e102.svg",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.ff0c1e4e.css",
-    "static/js/main.befb6b7a.js"
+    "static/js/main.341a73ac.js"
   ]
 }
