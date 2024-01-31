@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.64104548.css",
-    "main.js": "/static/js/main.bf89ccbc.js",
+    "main.css": "/static/css/main.c02fc70e.css",
+    "main.js": "/static/js/main.3d04fcb9.js",
     "static/js/277.ab0240c1.chunk.js": "/static/js/277.ab0240c1.chunk.js",
     "static/css/7878.ebe71a33.chunk.css": "/static/css/7878.ebe71a33.chunk.css",
     "static/js/7878.0eecf2fa.chunk.js": "/static/js/7878.0eecf2fa.chunk.js",
@@ -61,11 +61,12 @@
     "static/js/4830.25a40080.chunk.js": "/static/js/4830.25a40080.chunk.js",
     "static/js/5903.e49ede1a.chunk.js": "/static/js/5903.e49ede1a.chunk.js",
     "static/js/6053.3c3dd1db.chunk.js": "/static/js/6053.3c3dd1db.chunk.js",
-    "static/media/NotoSansKR-Bold.woff": "/static/media/NotoSansKR-Bold.2736254c670de31ad97c.woff",
-    "static/media/NotoSansKR-Medium.woff": "/static/media/NotoSansKR-Medium.27c9266400da5b484281.woff",
-    "static/media/NotoSansKR-Regular.woff": "/static/media/NotoSansKR-Regular.9aebba9839b6c88b50ab.woff",
-    "static/media/NotoSansKR-Light.woff": "/static/media/NotoSansKR-Light.e778d279c3a487d5a659.woff",
-    "static/media/NotoSansKR-Thin.woff": "/static/media/NotoSansKR-Thin.91a1f0fafbdf852305e5.woff",
+    "static/media/NotoSansKR-VariableFont_wght.ttf": "/static/media/NotoSansKR-VariableFont_wght.33752a94ca5252213de8.ttf",
+    "static/media/NotoSerifKR-Bold.otf": "/static/media/NotoSerifKR-Bold.09635ea0efa60cd18ccd.otf",
+    "static/media/NotoSerifKR-Medium.otf": "/static/media/NotoSerifKR-Medium.9c86497566257e82d905.otf",
+    "static/media/NotoSerifKR-Regular.otf": "/static/media/NotoSerifKR-Regular.e159414dcce58cf60663.otf",
+    "static/media/NotoSerifKR-Light.otf": "/static/media/NotoSerifKR-Light.e77ce81e644f439a2637.otf",
+    "static/media/NotoSerifKR-ExtraLight.otf": "/static/media/NotoSerifKR-ExtraLight.de7b7a526c4b9c335b13.otf",
     "static/media/main_top2.jpg": "/static/media/main_top2.6117615837ce29113712.jpg",
     "static/media/main_top3.jpg": "/static/media/main_top3.135be8c5f63030153a79.jpg",
     "static/media/java_image.png": "/static/media/java_image.73beed207ce12c7d1373.png",
@@ -77,7 +78,7 @@
     "static/media/plane.svg": "/static/media/plane.25f4d8351071f63b10241738c86e012d.svg"
   },
   "entrypoints": [
-    "static/css/main.64104548.css",
-    "static/js/main.bf89ccbc.js"
+    "static/css/main.c02fc70e.css",
+    "static/js/main.3d04fcb9.js"
   ]
 }
