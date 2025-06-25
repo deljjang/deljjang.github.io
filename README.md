@@ -9,19 +9,12 @@
 
 ### `사용 기술`
 React
-
 MUI
-
 Firebase
-
 Google Analytics
-
 react-query
-
 Suspense
-
 Quill
-
 MUI tree-view
 
 Emotion
