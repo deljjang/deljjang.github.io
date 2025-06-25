@@ -16,19 +16,11 @@ react-query
 Suspense
 Quill
 MUI tree-view
-
 Emotion
-
 React Hook Form
-
 Formik
-
 Framer Motion
-
 highlight.js
-
 GitHub
-
 Netlify
-
 OpenAI
