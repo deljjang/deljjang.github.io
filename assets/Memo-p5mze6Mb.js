@@ -1,0 +1,1 @@
+import{j as o}from"./index-0G1Hsxji.js";import{M as m}from"./MemoCommon-BVsxowtw.js";import"./TreeView-D0bNEAQM.js";import"./Collapse-B19ZRGwv.js";import"./Favorite-Bqg1FBgG.js";import"./TailButton-pmNpde4C.js";import"./TailLayout-CDcTHkEI.js";import"./chevron-down-PR1VixXW.js";const x=()=>o.jsx(m,{rootDb:"memo"});export{x as default};

@@ -1,1 +1,0 @@
-import{j as e,aj as r,ak as a,cl as i}from"./index-ByiTqD5i.js";import{T as o}from"./TailLayout-CZADM7Qj.js";import"./chevron-down-BzstFzJY.js";const m=()=>e.jsx(r,{children:e.jsx(a,{element:e.jsx(o,{sideType:"tail"}),children:i.map((t,s)=>e.jsx(a,{path:t.path,element:t.element},s))})});export{m as default};
