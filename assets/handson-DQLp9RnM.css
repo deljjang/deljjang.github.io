@@ -1,0 +1,1 @@
+.handsontable .columnSorting:not(.indicatorDisabled).sortAction{max-width:100%;min-width:calc(100% - var(--ht-icon-size));padding-inline-end:2px;padding-inline-start:2px}.handsontable{overflow-y:scroll!important;-ms-overflow-style:none;scrollbar-width:none}.handsontable::-webkit-scrollbar{display:none}
