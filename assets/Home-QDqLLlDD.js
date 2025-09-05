@@ -1,1 +1,0 @@
-import{j as o}from"./index-DSTFP3D0.js";import{M as m}from"./MemoCommon-6FxierME.js";import"./TreeView-Dle0RYFk.js";import"./Collapse-T0y6pOUv.js";import"./TailButton-ti9wy14p.js";import"./TailLayout-CKDxGMbQ.js";import"./chevron-down-J1kFd_lD.js";import"./Favorite-FFtrnyGr.js";const x=()=>o.jsx(m,{rootDb:"home"});export{x as default};
