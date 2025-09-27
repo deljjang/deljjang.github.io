@@ -1,1 +1,0 @@
-import{j as i,l as r,b3 as n}from"./index-C3_Lifs7.js";import{T as t}from"./ExpandMore-D0Hdj0Sv.js";const l=e=>i.jsx(r.div,{whileHover:{scale:1.05},whileTap:{scale:.9},children:i.jsx(n,{to:e.to,className:"text-inherit no-underline cursor-pointer",...e,children:i.jsx(t,{children:e.children})})});export{l as T};
