@@ -1,0 +1,5 @@
+import{p as l,j as o,s as d}from"./index-DM1iZTPq.js";l.configure({languages:["javascript","ruby","python","java","cpp","kotlin","sql"]});const i=d("pre")(({props:e})=>({...e,color:"rgb(206 204 226)",backgroundColor:"rgb(27 27 27 / 87%)",textAlign:"left",paddingLeft:"3px",width:"100%",wordBreak:"break-word",wordWrap:"break-word",whiteSpace:"pre",overflowX:"auto",borderLeft:"2px solid #358ccb"}));function p(e){let n=0;if(e.includes('<table class="code-table">'))return e;const r=/<span class="hljs-comment">(.|\n)*?<\/span>/g,a=e.replace(r,t=>t.replace(/\r?\n/g,()=>`
+<span class="hljs-comment">`)),s=a.split(/\r?\n/).length-1;return`<table class='code-table'>${a.split(/\r?\n/).map((t,c)=>s===c&&t===""?"":`<tr>
+              <td class='line-number' data-pseudo-content=${++n}></td>
+              <td class='line-content'>${t}</td>
+            </tr>`).join("")}</table>`}function b(e){const n=l.highlightAuto(e.text).value,r=p(n);return o.jsx(i,{...e,children:o.jsx("div",{dangerouslySetInnerHTML:{__html:r}})})}export{b as C,p as c};
