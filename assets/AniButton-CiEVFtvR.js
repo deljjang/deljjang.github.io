@@ -1,1 +1,0 @@
-import{j as n,l as i}from"./index-1_qJUBN6.js";import{B as a}from"./Button-ChmR-2uQ.js";function s({children:t,...o}){return n.jsx(a,{variant:"contained",component:i.div,whileHover:{scale:1,transition:{duration:.3}},whileTap:{scale:.9},...o,children:t})}export{s as A};
