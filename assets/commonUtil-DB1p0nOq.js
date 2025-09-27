@@ -1,1 +1,0 @@
-import{z as e}from"./index-DM1iZTPq.js";function a(t){return t.toString().replace(/\B(?=(\d{3})+(?!\d))/g,",")}const p=({title:t,description:o})=>{const r=document.querySelector("title");r.innerHTML=t===""?e.appTitle:`${e.appTitle} :: ${t}`,document.querySelector('meta[property="og:description"]').setAttribute("content",o!==void 0?o:e.appTitle)};export{a as n,p as s};
