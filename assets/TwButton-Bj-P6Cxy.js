@@ -1,8 +1,0 @@
-import{j as o,C as l}from"./index-Dt7VXYqf.js";function c({size:e="sm",color:n="success",variant:r="outlined",children:b,className:a="",...s}){const d={sm:"px-2 text-sm font-medium min-w-18 h-7 ",md:"px-4 min-w-20 min-h-10",lg:"px-6 text-lg min-w-25 min-h-12",xl:"px-6 text-xl min-w-28 min-h-14"},t={outlined:{success:"border-green-500 text-green-500 hover:bg-green-50 dark:hover:bg-green-900/50",error:"border-red-500 text-red-500 hover:bg-red-50 dark:hover:bg-red-900/50",warning:"border-orange-500 text-orange-500 hover:bg-orange-50 dark:hover:bg-orange-900/50",info:"border-blue-500 text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-900/50",brand:"border-indigo-500 text-indigo-500 hover:bg-indigo-50 dark:hover:bg-indigo-900/50",sky:"border-sky-500 text-sky-500 hover:bg-sky-50 dark:hover:bg-sky-900/50",secondary:"border-gray-500 text-gray-500 hover:bg-gray-50 dark:hover:bg-gray-900/50",blue:"border-blue-500 text-blue-500 hover:bg-blue-50 dark:hover:bg-blue-900/50"},primary:{success:"bg-green-500 text-white dark:text-black",error:"bg-red-500 text-white dark:text-black",warning:"bg-orange-500 text-white dark:text-black",info:"bg-blue-500 text-white dark:text-black",brand:"bg-indigo-500 text-white dark:text-black",sky:"bg-sky-500 text-white dark:text-black",secondary:"bg-gray-500 text-white dark:text-black",blue:"bg-blue-500 text-white dark:text-black"}},g=r==="outlined"?`border rounded-${e} border-1 hover:border-2`:`rounded-${e}`,i=t[r]?.[n]||t[r].success;return o.jsx("button",{className:`
-        ${g}
-        ${i}
-        ${d[e]}
-        focus:outline-none
-        transition-colors duration-200
-        ${a}
-        `,...s,children:o.jsx(l.div,{whileTap:{scale:.9},className:"flex items-center text-center justify-center ",children:b})})}export{c as T};
