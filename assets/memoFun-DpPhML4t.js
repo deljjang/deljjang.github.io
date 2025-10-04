@@ -1,0 +1,1 @@
+const o=(i,l)=>{let n=[],t=l;if(!i)return n;const r=i.find(e=>e.id===t);for(n.unshift(r),t=r?.parent;t!=null&&t!==""&&t!=="root";){const e=i.find(f=>f.id===t);t=e?.parent,n.unshift(e)}return n};export{o as g};
