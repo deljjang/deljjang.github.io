@@ -1,1 +1,0 @@
-import{b as e,C as n,bm as c,f as o}from"./index-Bq2okyO2.js";const i=async t=>{const a=e(o,t),r=await n(a);if(r.exists())try{return r.val()}catch(s){console.error("Error fetching data:",s)}},m=(t,a)=>{c(e(o,t),a)},g=async(t,a)=>i(`memo_txt/${t}/${a}`);export{g as a,i as g,m as s};
