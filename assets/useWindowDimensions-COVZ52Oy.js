@@ -1,1 +1,0 @@
-import{r as t}from"./index-CCcUv6gy.js";function o(){if(typeof window>"u")return{width:0,height:0};const{innerWidth:n,innerHeight:e}=window;return{width:n,height:e}}function r(){const[n,e]=t.useState({width:0,height:0});return t.useEffect(()=>{e(o());function i(){e(o())}return window.addEventListener("resize",i),()=>window.removeEventListener("resize",i)},[]),n}export{r as u};
