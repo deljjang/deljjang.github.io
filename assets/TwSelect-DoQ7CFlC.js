@@ -1,6 +1,0 @@
-import{j as e}from"./index-lrzewyDA.js";const h=({name:a,options:s,rules:n,control:t,onChange:d,placeholder:l="Select Option",className:o="",allClassName:i=""})=>{const c=r=>{d(r)};return e.jsxs("div",{className:`relative ${i}`,children:[e.jsxs("select",{className:`h-11 w-full appearance-none rounded-lg border border-gray-300 
-          bg-transparent px-4 py-2.5 pr-11 text-sm shadow-theme-xs placeholder:text-gray-400 
-          focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 
-          dark:border-gray-700 dark:bg-zinc-950 dark:text-white/90 dark:placeholder:text-white/30 
-          dark:focus:border-brand-800 dark:bg-dark-900
-          ${o}`,name:a,...t?t.register(a,n):{},onChange:c,children:[e.jsx("option",{value:"",disabled:!0,className:"text-gray-700 dark:bg-zinc-950 dark:text-gray-400",children:l}),s.map(r=>e.jsx("option",{value:r.value,className:"text-gray-700 dark:bg-zinc-950 dark:text-gray-400",children:r.label},r.value))]}),e.jsx("div",{className:"pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 h-11",children:e.jsx("svg",{className:"h-4 w-4 text-gray-400",fill:"none",stroke:"currentColor",viewBox:"0 0 24 24",children:e.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:2,d:"M19 9l-7 7-7-7"})})})]})};export{h as T};
