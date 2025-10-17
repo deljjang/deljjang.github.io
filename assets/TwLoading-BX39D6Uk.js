@@ -1,0 +1,1 @@
+import{j as e}from"./index-Cc_BWBjh.js";const a=({className:r})=>e.jsx("div",{className:`p-0 ${r}`,children:e.jsx("div",{className:"flex flex-col items-center",children:e.jsx("div",{className:"mt-10 h-10 w-10 animate-spin rounded-full border-4 border-solid border-blue-500 border-t-transparent"})})});export{a as T};
