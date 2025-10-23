@@ -1,0 +1,1 @@
+import{j as n,bd as i}from"./index-BIY4lDLS.js";import{B as a}from"./Button-2_81T75y.js";function s({children:t,...o}){return n.jsx(a,{variant:"contained",component:i.div,whileHover:{scale:1,transition:{duration:.3}},whileTap:{scale:.9},...o,children:t})}export{s as A};
