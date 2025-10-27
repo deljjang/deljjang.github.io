@@ -1,1 +1,0 @@
-import{j as e,w as r}from"./index-35F3cCEr.js";const d=({className:s})=>e.jsx("div",{className:`p-0 ${s}`,children:e.jsx("div",{className:"flex flex-col items-center",children:e.jsx("div",{className:`mt-10 h-10 w-10 animate-spin ${r.roundedFull} border-4 border-solid border-blue-500 border-t-transparent`})})});export{d as T};
