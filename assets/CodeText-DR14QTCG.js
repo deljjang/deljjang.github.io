@@ -1,5 +1,0 @@
-import{j as a,$ as i}from"./index-BnDGPcXM.js";import{H as l}from"./index-BH2gn-gO.js";/* empty css                   */l.configure({languages:["javascript","ruby","python","java","cpp","kotlin","sql"]});const d=i("pre")(({props:e})=>({...e,color:"rgb(206 204 226)",backgroundColor:"rgb(27 27 27 / 87%)",textAlign:"left",paddingLeft:"3px",width:"100%",wordBreak:"break-word",wordWrap:"break-word",whiteSpace:"pre",overflowX:"auto",borderLeft:"2px solid #358ccb"}));function p(e){let r=0;if(e.includes('<table class="code-table">'))return e;const n=/<span class="hljs-comment">(.|\n)*?<\/span>/g,o=e.replace(n,t=>t.replace(/\r?\n/g,()=>`
-<span class="hljs-comment">`)),s=o.split(/\r?\n/).length-1;return`<table class='code-table'>${o.split(/\r?\n/).map((t,c)=>s===c&&t===""?"":`<tr>
-              <td class='line-number' data-pseudo-content=${++r}></td>
-              <td class='line-content'>${t}</td>
-            </tr>`).join("")}</table>`}function m(e){const r=l.highlightAuto(e.text).value,n=p(r);return a.jsx(d,{...e,children:a.jsx("div",{dangerouslySetInnerHTML:{__html:n}})})}export{m as C,p as c};
