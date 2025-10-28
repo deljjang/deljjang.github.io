@@ -1,0 +1,7 @@
+import{j as e,w as t}from"./index-CAKFeC_B.js";function u({size:g="md",color:d="brand",variant:n="solid",children:b,startIcon:r,endIcon:a,className:i="",...x}){const l={sm:`px-2 py-0.5 ${t.textXs}`,md:`px-2.5 py-0.5 ${t.textSm}`,lg:"px-3 py-1 text-base"},s={solid:{success:"bg-green-500 text-white",error:"bg-red-500 text-white",warning:"bg-orange-500 text-white",info:"bg-blue-500 text-white",brand:"bg-indigo-500 text-white",sky:"bg-sky-500 text-white",secondary:"bg-gray-500 text-white",blue:"bg-blue-500 text-white"},light:{success:"bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-200",error:"bg-red-100 text-red-800 dark:bg-red-900/50 dark:text-red-200",warning:"bg-orange-100 text-orange-800 dark:bg-orange-900/50 dark:text-orange-200",info:"bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-200",brand:"bg-indigo-100 text-indigo-800 dark:bg-indigo-900/50 dark:text-indigo-200",sky:"bg-sky-100 text-sky-800 dark:bg-sky-900/50 dark:text-sky-200",secondary:"bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200",blue:"bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-200"}},o=s[n]?.[d]||s.solid.brand;return e.jsxs("span",{className:`
+        inline-flex items-center justify-center gap-1
+        font-medium ${t.roundedFull}
+        ${l[g]}
+        ${o}
+        ${i}
+      `,...x,children:[r&&e.jsx("span",{className:"mr-1",children:r}),b,a&&e.jsx("span",{className:"ml-1",children:a})]})}export{u as T};
