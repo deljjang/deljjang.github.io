@@ -1,1 +1,0 @@
-import{bX as d,P as t,bY as a}from"./index-CjFOdZ7J.js";const p=d(t)(({theme:o,textAlign:r})=>({backgroundColor:o.palette.mode==="dark"?a.dark.backgroundColor:a.light.backgroundColor,...o.typography.body2,padding:o.spacing(1),textAlign:r,color:o.palette.text.secondary}));export{p as S};
