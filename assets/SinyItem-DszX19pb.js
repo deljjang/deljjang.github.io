@@ -1,0 +1,1 @@
+import{c4 as d,P as t,c5 as a}from"./index-CEJkszmk.js";const l=d(t)(({theme:o,textAlign:r})=>({backgroundColor:o.palette.mode==="dark"?a.dark.backgroundColor:a.light.backgroundColor,...o.typography.body2,padding:o.spacing(1),textAlign:r,color:o.palette.text.secondary}));export{l as S};

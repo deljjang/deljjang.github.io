@@ -1,0 +1,1 @@
+import{c7 as l,c8 as o,c9 as i,bp as n}from"./index-CEJkszmk.js";var e={},r;function s(){if(r)return e;r=1;var t=l();Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a=t(o()),u=i();return e.default=(0,a.default)((0,u.jsx)("path",{d:"M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6zM19 4h-3.5l-1-1h-5l-1 1H5v2h14z"}),"Delete"),e}var c=s();const f=n(c);export{f as D};
