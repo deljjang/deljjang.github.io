@@ -1,1 +1,0 @@
-import{j as t,l as o,i as s}from"./index-CoVcsh-V.js";function a({children:i,...n}){return t.jsx(o.div,{whileHover:{scale:1.05,transition:{duration:.3}},whileTap:{scale:.95},children:t.jsx(s,{...n,children:i})})}export{a as A};
