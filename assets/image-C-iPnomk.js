@@ -1,0 +1,13 @@
+const e=[{date:"2024-01-17",fullIndex:"undefined/sub/-NnHsv_uyCLnYWUiH-dX",gbn:"image",html:"N",imageOK:"Y",memo:`<p><strong>4세기 고구려와 백제 영토</strong></p>
+<img src="/data/고구려.jpeg"></img>`,title:"고구려와 백제 영토",url:"-NnHsv_uyCLnYWUiH-dX"},{date:"2024-02-19",fullIndex:"image/sub/-Nr-Yc89CBRJQR8bS-Wi/sub/-Nr-Yc89CBRJQR8bS-Wi",gbn:"image",html:"N",imageOK:"Y",memo:`<p>20170826_125345jpg</p>
+<img src="/data/꼬미_20170826.jpg"></img>`,title:"꼬미 20170826",url:"-Nr-Yc89CBRJQR8bS-Wi"},{date:"2024-02-16",fullIndex:"image",gbn:"image",html:"N",imageOK:"Y",memo:`<p>꼬미</p><p>
+<img src="/data/꼬미_1.jpg"></img>`,title:"꼬미1",url:"-NqlWX9iNUezAKYzQjMd"},{date:"2024-02-16",fullIndex:"image",gbn:"image",html:"N",imageOK:"Y",memo:`<p>꼬미</p>
+<img src='/data/꼬미2.jpg'>`,title:"꼬미2",url:"-NqlW5YnVg_2hOX50gOn"},{date:"2024-02-16",fullIndex:"image",gbn:"image",html:"N",imageOK:"Y",memo:`<p>보리, 꼬미</p>
+<img src="/data/꼬미보리2.jpg"></img>
+<img src="/data/꼬미보리3.jpg"></img>`,title:"보리, 꼬미",url:"-NqlWJbxTm8GjG3IBlld"},{"-NnMwx1vA2VMxiJh0B5y":{url:"https://firebasestorage.googleapis.com/v0/b/sinyproject.appspot.com/o/home%2F-NnMvY-OvaTgxwahlu_o%2F-NnMwx1vA2VMxiJh0B5y.jpg?alt=media&token=457be12e-0d63-468c-b5a1-bcd39a59c1a4"},"-NnMwxSB0cfGaWBfIOau":{url:"https://firebasestorage.googleapis.com/v0/b/sinyproject.appspot.com/o/home%2F-NnMvY-OvaTgxwahlu_o%2F-NnMwxSB0cfGaWBfIOau.jpg?alt=media&token=ff27e83a-86fc-4d63-90fd-67380cb4afad"},"-NnMwxhfbIPPnuBwKRaW":{url:"https://firebasestorage.googleapis.com/v0/b/sinyproject.appspot.com/o/home%2F-NnMvY-OvaTgxwahlu_o%2F-NnMwxhfbIPPnuBwKRaW.mp4?alt=media&token=1be96ec0-f4d7-4b21-b2fd-6a9a48119e5a"},date:"2024-01-17",fullIndex:"image/sub/-NnMvY-OvaTgxwahlu_o/sub/-NnMvY-OvaTgxwahlu_o",gbn:"image",html:"N",imageOK:"Y",memo:`<p>우리집 꼬미</p>
+<img src="/data/꼬미1.jpg"><video preload="auto" controls="" src="" style="width: 100%; height: 100%;" /></img>
+
+<video preload="auto" controls="" src="/data/꼬미보리1.mp4" style="width: 100%; height: 100%;" />`,title:"우리집 꼬미",url:"-NnMvY-OvaTgxwahlu_o"},{date:"2024-02-16",fullIndex:"undefined/sub/-NqkXkZxs06DocmOXSSR/sub/-NqkXkZxs06DocmOXSSR",gbn:"image",html:"N",imageOK:"Y",memo:`<p>우리집 보리</p><p><br></p>
+<img src="/data/보리1.jpg"></img>`,title:"우리집 보리",url:"-NqkXkZxs06DocmOXSSR"},{date:"2024-01-17",fullIndex:"undefined/sub/-NnHsDk8WdxfcilgP6OO",gbn:"image",html:"N",imageOK:"Y",memo:`<p><strong>이누야샤 - 등장인물</strong></p><p><br></p><p><strong>\uFEFF</strong></p>
+<img src="/data/이누야샤.gif"></img>`,title:"이누야샤 - 등장인물",url:"-NnHsDk8WdxfcilgP6OO"},{date:"2024-01-17",fullIndex:"undefined/sub/-NnHtMfRWw76qsnPkE9B",gbn:"image",html:"N",imageOK:"Y",memo:`<p>프로젝트 그림!!!</p>
+<img src="/data/프로젝트.gif"></img>`,title:"프로젝트 그림!!!",url:"-NnHtMfRWw76qsnPkE9B"}];export{e as default};
