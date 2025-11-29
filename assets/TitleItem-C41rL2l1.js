@@ -1,1 +1,0 @@
-import{j as m}from"./index-CuczKQYl.js";import"./router-v4BRDFYV.js";const o=({children:t,className:e=""})=>m.jsx("h2",{className:`w-full my-8 p-2 text-center text-xl font-medium bg-[#f1f1f1] dark:bg-[#181818] ${e}`,children:t});export{o as T};
