@@ -1,1 +1,0 @@
-import{j as o}from"./index-TGf_seOk.js";import{r}from"./router-v4BRDFYV.js";import{L as t}from"./App-B2wqEtp1.js";import m from"./Memo-C_FzqBF0.js";import"./vendor-CCYiWZgt.js";const x=()=>o.jsx(r.Suspense,{fallback:o.jsx(t,{}),children:o.jsx(m,{rootDb:"home"})});export{x as default};
