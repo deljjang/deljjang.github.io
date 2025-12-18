@@ -1,1 +1,0 @@
-import{j as r}from"./index-CCACF7Rg.js";import{r as s,e as a,f as o}from"./router-BlMcuVHC.js";import{r as p,L as m}from"./App-BJgMSaeA.js";import"./vendor-CCYiWZgt.js";const l=()=>r.jsx(s.Suspense,{fallback:r.jsx(m,{}),children:r.jsx(a,{children:p.map((e,t)=>r.jsx(o,{path:e.path,element:e.element},t))})});export{l as default};
